@@ -1,0 +1,31 @@
+.legend {
+  margin: 1rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  font-size: 0.85rem;
+}
+
+.pill {
+  display: inline-block;
+  padding: 0.25rem 0.55rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  font-size: 0.8rem;
+  white-space: nowrap;
+}
+
+.pill-support {
+  background: var(--accent-soft);
+  border-color: var(--accent);
+}
+
+.pill-conditional {
+  background: rgba(234, 179, 8, 0.12);
+  border-color: #eab308;
+}
+
+.pill-oppose {
+  background: rgba(248, 113, 113, 0.12);
+  border-color: var(--danger);
+}

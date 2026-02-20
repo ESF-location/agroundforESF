@@ -16,8 +16,8 @@
 }
 
 .pill-support {
-  background: var(--accent-soft);
-  border-color: var(--accent);
+  background: rgba(34, 197, 94, 0.15);
+  border-color: #22c55e;
 }
 
 .pill-conditional {
@@ -29,3 +29,4 @@
   background: rgba(248, 113, 113, 0.12);
   border-color: var(--danger);
 }
+
